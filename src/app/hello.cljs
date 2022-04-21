@@ -14,4 +14,5 @@
   [:<>
    [:p "Hello, wisegoat-cljs is running!"]
    [:p "Here's an example of using a component with state:"]
+   [:h1 "Aqui"]
    [click-counter click-count]])
