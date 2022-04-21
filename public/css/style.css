@@ -71,6 +71,8 @@
     img {
         height: 417px;
         margin-bottom: 63px;
+	    transform: translatey(0px);
+	    animation: float 6s ease-in-out infinite;
     }
     
     .sentence-random {
@@ -109,6 +111,24 @@
         text-decoration: none;
         color: white;
     }
+
+    .layout {
+        margin-top: 60px;
+    }
+
+    @keyframes float {
+        0% {
+            transform: translatey(0px);
+        }
+        50% {
+            transform: translatey(-20px);
+        }
+        100% {
+            transform: translatey(0px);
+        }
+    }
+
+    
 
     @media screen and (max-width: 480px) {
         .layout {

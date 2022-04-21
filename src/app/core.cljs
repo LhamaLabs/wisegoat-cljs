@@ -1,7 +1,6 @@
 (ns app.core
   "This namespace contains your application and is the entrypoint for 'yarn start'."
   (:require [reagent.core :as r]
-            [app.hello :refer [hello]]
             [app.home :refer [home]]))
 
 (defn ^:dev/after-load render
