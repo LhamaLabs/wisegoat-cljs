@@ -4,7 +4,6 @@
 (defn home []
   [:<>
    [:div.layout
-    [:div.spacer "aaa"]
     [:div.wisegoat-advice
      [:h5 "Wise"]
      [:h1 "Goat"]
