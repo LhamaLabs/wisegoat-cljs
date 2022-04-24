@@ -1,6 +1,4 @@
-(ns app.home
-  (:require [app.answer :refer [answer]]
-            [reitit.frontend.easy :as rfe]))
+(ns app.pages.home)
 
 (defn home []
   [:<>

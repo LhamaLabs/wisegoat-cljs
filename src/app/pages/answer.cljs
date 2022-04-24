@@ -1,4 +1,4 @@
-(ns app.answer)
+(ns app.pages.answer)
 
 (defn get-advice []
   (-> (js/fetch "https://api.adviceslip.com/advice")
@@ -22,5 +22,6 @@
    [:div.layout
     [:div.wisegoat-advice
      [:h1.answer "Thinking..."]
-     [:button {:class "ask-for-advice"} [:a.link-advice {:href "/"} "Another"]]]
-    [:img {:src "https://raw.githubusercontent.com/geovannabrgs/wisegoat/master/assets/bodezinho.png"}]]])
+     [:button {:class "ask-for-advice"} [:a.link-advice {:on-click get-advice} "Another"]]]
+    [:img {:src "https://raw.githubusercontent.com/geovannabrgs/wisegoat/master/assets/bodezinho.png"}]]
+   [:div.container-home  [:a.home-link {:href "/"} "Home"]]])

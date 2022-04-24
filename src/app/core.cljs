@@ -1,8 +1,8 @@
 (ns app.core
   "This namespace contains your application and is the entrypoint for 'yarn start'."
   (:require [reagent.core :as r]
-            [app.home :refer [home]]
-            [app.answer :refer [answer]]
+            [app.pages.home :refer [home]]
+            [app.pages.answer :refer [answer]]
             [reitit.frontend :as rf]
             [reitit.frontend.easy :as rfe]
             [reitit.coercion.spec :as rss]

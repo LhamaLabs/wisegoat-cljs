@@ -111,6 +111,16 @@
         width: 200px;
     }
 
+    .container-home {
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .home-link {
+        display: inline-block;
+        padding: 10px;
+    }
+
     .link-advice {
         text-decoration: none;
         color: white;
@@ -132,10 +142,18 @@
         }
     }
 
-    
-
     @media screen and (max-width: 480px) {
+        .answer {
+            margin-top: 10px;
+            width: 260px;
+        }
+
+        .container-home {
+            padding-top: 15px;
+        }
+
         .layout {
+            margin-top: 20px;
             display: flex;
             flex-flow: column;
             -ms-flex-align: center;
@@ -166,6 +184,8 @@
             padding: 15px 45px;
         }
         img {
+            margin: 0;
+            padding: 0;
             height: 210px;
         }
         .sentence-random {
@@ -181,6 +201,10 @@
             font-size: 30px;
             opacity: 45%;
             line-height: 0%;
+        }
+
+        .ask-for-advice {
+            margin-top: 15px;
         }
         
     }
