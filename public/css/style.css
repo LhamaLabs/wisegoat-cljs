@@ -100,13 +100,17 @@
         margin: 0;
     }
 
-    h1 {
+    .title {
         color: purple;
         font-weight: bold;
         font-size: 104px;
         margin: 0px;
     }
     
+    .answer {
+        width: 200px;
+    }
+
     .link-advice {
         text-decoration: none;
         color: white;

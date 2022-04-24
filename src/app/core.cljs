@@ -13,9 +13,6 @@
 
 (defn current-page []
   [:div
-   [:ul
-    [:li [:a {:href (rfe/href ::home)} "Home"]]
-    [:li [:a {:href (rfe/href ::answer)} "Answer"]]]
    (if @match
      (let [view (:view (:data @match))]
        [view @match]))])
